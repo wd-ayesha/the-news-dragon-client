@@ -22,7 +22,7 @@ const Header = () => {
           just some text.
         </Marquee>
       </div>
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar className="mt-4" collapseOnSelect expand="lg" bg="light" variant="light">
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
